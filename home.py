@@ -12,11 +12,11 @@ col1, col2 = st.columns(2)
 with col1:
     st.image('./pic/jeen.jpg')
 with col2:
-    st.image('./pic/Audi R8.jpg')
+    st.image('./pic/iris.jpg')
 
 html_1 = """
-<div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
-<center><h5>สถิติข้อมูลดอกไม้</h5></center>
+<div style="background-color:#E7EFF9;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5 style="color:#000000">สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
 st.markdown(html_1, unsafe_allow_html=True)
