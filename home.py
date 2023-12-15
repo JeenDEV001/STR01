@@ -7,6 +7,6 @@ st.subheader('สาขาวิชาเทคโนโลยีสารสน
 st.markdown("----")
 
 with col1:
-    st.image('./pic/jeen.jfif')
+    st.image('./pic/jeen.jpg')
 with col2:
     st.image('./pic/iris.jpg')
